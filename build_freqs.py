@@ -5,7 +5,7 @@
 
 
 import numpy as np
-import process_tweet as process_tweet
+from process_tweet import process_tweet
 
 def build_freqs(tweets, ys):
     """Build frequencies.
